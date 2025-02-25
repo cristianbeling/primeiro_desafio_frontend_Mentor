@@ -1,0 +1,76 @@
+main {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    min-height: 600px;
+    padding: 3em;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.container p {
+    padding: 2em;
+    color: #FFFFFF;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.sedans img{
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+.titulos {
+    margin-left: 1em;
+    margin-top: 1em;
+    color: #FFFFFF;
+}
+
+.lermais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.lermais p {
+    border: 1px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.lermais p {
+    padding: 15px 25px;
+    transition: 0.3s ease-in-out;
+}
+
+.lermais p:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid;
+}
+
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.suvs img{
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.luxury img {
+    margin-left: 2em;
+    margin-top: 2em;
+}
